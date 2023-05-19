@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="grid min-h-screen grid-cols-2">
+    <main className="grid min-h-screen grid-cols-2 bg-[url(../assets/bg-stars.svg)] bg-cover">
       {/* Left */}
       <div className="relative flex flex-col items-start justify-between overflow-hidden border-r border-white/20 px-28 py-16">
         {/* blur */}
@@ -11,7 +11,7 @@ export default function Home() {
       </div>
 
       {/* Rigth */}
-      <div className="flex flex-col p-16">
+      <div className="flex flex-col bg-[url(../assets/bg-stars.svg)] bg-cover p-16">
         <div className="flex flex-1 items-center justify-center">
           <p className="w=[360] text-center leading-relaxed">
             Voçê ainda não registrou nenhuma lembrança, comece a{' '}
